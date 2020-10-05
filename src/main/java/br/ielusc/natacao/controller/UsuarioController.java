@@ -15,6 +15,4 @@ public class UsuarioController {
         private UsuarioRepository usuarioRepository;
 
 
-//        @PostMapping
-//        public Usuario create
-//    }
+   }
