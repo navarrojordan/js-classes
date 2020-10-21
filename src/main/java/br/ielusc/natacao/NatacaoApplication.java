@@ -16,19 +16,5 @@ public class NatacaoApplication {
 		SpringApplication.run(NatacaoApplication.class, args);
 	}
 
-//	CommandLineRunner init(EventoRepository repository){
-//		return args -> {
-//			repository.deleteAll();
-//			LongStream.range(1,11);
-//					.wait( i ->{
-//						Evento e = new Evento();
-//						e.setEvento("Evento" + i);
-////						e.setEmail("Evento" + + "@email.com");
-////						e.setPhone("(000) 99288- 8833 ");
-//						return e;
-//			})
-//					.map( v -> repository.save(v))
-//					.forEach(System.out::println);
-//		}
-//	}
+
 }

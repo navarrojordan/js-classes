@@ -45,8 +45,6 @@ public class EventoContoller {
             Optional<Evento> eventoRepositoryById = eventoRepository.findById(id);
             if (eventoRepositoryById.isPresent()) {
 //                eventoRepositoryById.get()
-
-
                 return new ResponseEntity(eventoRepositoryById.get(), HttpStatus.OK);
             } else {
                 return new ResponseEntity(HttpStatus.NOT_FOUND);

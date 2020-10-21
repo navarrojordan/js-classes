@@ -10,7 +10,9 @@ import javax.persistence.*;
 @Setter
 
 public class ParticipaEvento {
-
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    private Long id;
     @Column(nullable = false)
 
     private int idusuario;
